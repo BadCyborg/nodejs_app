@@ -16,7 +16,7 @@ router.get('/fe',(req,res,next) => {
 	res.send('Hello from Node Js using Nodemon');
 });
 
-router.get('/admin', (req, res, next) =>{
+router.get('/home', (req, res, next) =>{
 
 	res.render('home',null);
 });
