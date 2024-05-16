@@ -13,7 +13,7 @@ const router = express.Router();
 
 router.get('/',(req,res,next) => {
 
-	res.send('Hello from Node Js using Nodemon');
+	res.send('HELLO from Node Js using Nodemon');
 });
 
 router.get('/admin', (req, res, next) =>{
