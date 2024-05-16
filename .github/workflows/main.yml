@@ -1,5 +1,8 @@
-on: push
-
+on:
+  push:
+    branches:
+      - main
+      
 jobs:
   launch_jenkins_job:
     name: trigger jenkins job
